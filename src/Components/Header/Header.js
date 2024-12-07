@@ -84,10 +84,12 @@ export default function Header() {
     <header className='header' ref={headerRef}>
       <Container>
         <div className="nav_wrapper d-flex align-items-center justify-content-between">
-          <div className="logo">
-            <img src={logo} alt="logo" width={"50%"}/>
-            <h5>Foodie</h5>
-          </div>
+          <Link to="/">
+            <div className="logo">
+              <img src={logo} alt="logo" width={"50%"}/>
+              <h5>Foodie</h5>
+            </div>
+          </Link>
 
           {/* ====== menu ====== */}
 
